@@ -1,3 +1,5 @@
+//install react-router-dom
+//then import
 import {
     BrowserRouter as Router,
     Switch,
@@ -15,7 +17,7 @@ function BlogPost() {
 }
  
 function Home() {
-    return <h3>home page </h3>;
+    return <h3>home page hello azim </h3>;
 }
  
 function App() {
