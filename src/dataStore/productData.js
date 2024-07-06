@@ -1,0 +1,138 @@
+const products = [
+{
+productName:"",
+title:"Watch -6",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"2",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"3",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+},
+{
+productName:"",
+title:"",
+description:"",
+rating:"",
+review:"",
+idAdmin:{
+  default:false
+},
+image:"https://i.ibb.co/MDqc9Dd/azim8-6.jpg"
+}
+];
+const productsData = () =>{
+  return products;
+}
+export default productsData;

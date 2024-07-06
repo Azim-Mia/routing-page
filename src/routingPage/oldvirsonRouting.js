@@ -1,4 +1,3 @@
-
 import { BrowserRouter, Routes, Route, NavLink} from "react-router-dom";
 import Home from '../../src/pages/home';
 import Login from '../../src/pages/login';
@@ -12,10 +11,10 @@ function Navlink(){
         <div><NavLink to="/logout">Logout</NavLink></div>
   </div>
 }
-function Oldrouting() {
+function RoutingPageOldVirson() {
     return <div>
     <BrowserRouter>
-    <Navlink />
+    <NavLink />
         <Routes>
         <Route path="/" element={<Home />} />
          <Route path="/login" element={<Login />} />
@@ -26,4 +25,4 @@ function Oldrouting() {
     </div>
 }
  
-export default Oldrouting;
+export default RoutingPageOldVirson;

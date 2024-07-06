@@ -1,9 +1,11 @@
 import './App.css';
-import Oldrouting from '/data/data/com.termux/files/home/routing-page/src/navigation/routingOld.js';
+import {
+  RouterProvider,
+} from "react-router-dom";
+import {router} from '/data/data/com.termux/files/home/routing-page/src/routingPage/newVirsonRouring.js'
 function App() {
-  return <div>
-  <Oldrouting />
-  </div>
+  return (<>
+  <RouterProvider router={router} />
+  </>)
 }
-
 export default App;

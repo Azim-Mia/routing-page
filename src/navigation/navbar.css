@@ -1,0 +1,19 @@
+.navbar-header{
+  position: sticky;
+  top: 0;
+ display: flex;
+ justify-content: space-between;
+background: #000;
+color: #fff;
+font-size: 2rem; 
+overflow:scroll;
+}
+nav ul{
+ display: flex; 
+ justify-content: flex-start;
+ align-items: center;
+ padding: 1rem;
+}
+.brand{
+  display: flex;
+}

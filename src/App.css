@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+@layer components {
+    .card{
+    background: pink;
+    padding: 4rem;
+  }
+}

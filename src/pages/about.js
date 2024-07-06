@@ -1,7 +1,7 @@
 /*import { FaBars } from "react-icons/fa";*/
-const Home = ()=>{
+const About = ()=>{
     return <div>
-    <h3>This is Home Home</h3>
+    <h3>This is About</h3>
     </div>
 }
-export default Home;
+export default About;
