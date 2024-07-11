@@ -15,16 +15,14 @@ cursor: pointer;
 .burger-bar{
   width:4rem;
   height: 0.5rem;
-  background: rgb(10,100,255);
+  background:pink;
   border-radius: 0.5rem;
 }
 .menu{
-  margin-top:2rem;
+  margin-top:1rem;
   z-index:100;
   position: fixed;
-  width:50%;
-    height:40vh;
-  background:yellow; 
+  background:pink; 
   font-family: vardana;
 }
 .hidden{

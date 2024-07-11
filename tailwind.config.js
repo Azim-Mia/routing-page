@@ -8,7 +8,11 @@ export default {
   theme: {
   colors: {
       'blue': '#1fb6ff',
-      'pink': '#ff49db',
+      'pink': 'pink',
+      'red':'red',
+      'tomato':'tomato',
+      'yellow':'yellow',
+      'black':'#000',
       'orange': '#ff7849',
       'green': '#13ce66',
       'gray-dark': '#273444',
@@ -31,7 +35,11 @@ export default {
         '144': '36rem',
       },
       borderRadius: {
+      '1xl':'1rem',
         '4xl': '2rem',
+      },
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
       }
     },
   },

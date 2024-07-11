@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .btn{
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding:0px 10px;
+    background:pink;
+    color: #000;
+  }
+  .btn:hover{
+    background: tomato;
+    color: #fff;
+    transition: 1s;
+  }
+}

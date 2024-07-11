@@ -1,4 +1,4 @@
-import {useState} from 'react';
+
 import { Outlet, Link } from "react-router-dom";
 import "./navbar.css";
 import Bars from './bars'
@@ -7,14 +7,14 @@ const Header =() =>{
   <header className="navbar-header">
       <div className="brand">
        <div className=""> <Bars /></div>
-  <Link to="/my-app" className="p-6"> My-app</Link>
+  <Link to="/my-app" className="pt-4"> My-app</Link>
   </div>
   <nav>
   <ul>
-  <li className="p-2"><Link to="/about">About</Link></li>
-    <li className="p-2"><Link to="/products">Products</Link></li>
-        <li className="p-2"><Link to="/contract">Contract</Link></li>
-        <li className="p-2"><Link to="/blog">Blog</Link></li>    
+  <li className="p-2 hover:border-b-2"><Link to="/home">Home</Link></li>
+    <li className="p-2 hover:border-b-2"><Link to="/contract">Contract</Link></li>
+        <li className="p-2 hover:border-b-2"><Link to="/login">LogIn</Link></li>
+        <li className="p-2 hover:border-b-2"><Link to="/about">About</Link></li>
   </ul>
   </nav>
   </header>

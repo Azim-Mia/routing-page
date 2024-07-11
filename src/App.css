@@ -9,5 +9,28 @@
     .card{
     background: pink;
     padding: 4rem;
+  },
+  .btn{
+    border: 1px solid #000;
+    border-radius: 20px;
+  }
+  .flex_costomise{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    color: pink;
+    width: 200px;
+    border-radius: 20px;
+    padding: 3px 0px;
+    box-shadow: 3px 3px 3px yellow;
+  }
+  .flex_custom{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 }
