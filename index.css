@@ -1,0 +1,16 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  background-image:url('/images/background2.jpeg');
+  background-size: 992px;
+  background-attachment: fixed;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
