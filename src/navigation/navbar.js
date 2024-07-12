@@ -14,6 +14,7 @@ const Header =() =>{
   <li className="p-2 hover:border-b-2"><Link to="/home">Home</Link></li>
     <li className="p-2 hover:border-b-2"><Link to="/contract">Contract</Link></li>
         <li className="p-2 hover:border-b-2"><Link to="/login">LogIn</Link></li>
+          <li className="p-2 hover:border-b-2"><Link to="/logout">LogOut</Link></li>
         <li className="p-2 hover:border-b-2"><Link to="/about">About</Link></li>
   </ul>
   </nav>

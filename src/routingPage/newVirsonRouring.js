@@ -3,15 +3,20 @@ import {
 } from "react-router-dom";
 import NewNavber from '/data/data/com.termux/files/home/routing-page/src/navigation/navbar.js';
 /*import Home from '../../src/pages/home';*/
-import Login from '../../src/userPage/login';
-import Logout from '../../src/userPage/logout';
+import Login from '../../src/components/userPage/login';
+/*import Logout from '../../src/components/userPage/logout';*/
+import Profile from '../../src/components/userPage/profile';
+import Orders from '../../src/components/userPage/orders';
+import AdminUsers from '../../src/components/addminPage/adminCategoryProduct';
+import Category from '../../src/components/addminPage/adminUsers';
 import Blog from '../../src/pages/blog';
 import Contract from '../../src/pages/contract';
 import About from '../../src/pages/about';
 import Products from '../../src/pages/products';
 import Error from '../../src/pages/error';
 import Myapp from '../../src/pages/myApp';
-import ProtektedPage from '../../src/userPage/protektedPage';
+import ProtektedPage from '../../src/components/protektedPage/protektedPage.js';
+import AdminProteckted from '../../src/components/protektedPage/adminProteckted.js';
 import ProductDetails from '../../src/components/productDetails';
 export const router = createBrowserRouter([
   {
@@ -24,15 +29,42 @@ export const router = createBrowserRouter([
     element:<Products />,
   },
   {
-  path:"/deshboard" ,
+  path:"/deshboard/user" ,
   element:<ProtektedPage />,
   children:[
 {
-  path:"user/profile",
-  element:<Products />,  
+  path:"profile",
+  element:<Profile />,  
+},
+{
+  path:"order",
+  element:<Orders />,  
 },
   ],
   },
+    {
+  path:"deshboard/admin" ,
+  element:<AdminProteckted />,
+  children:[
+{
+  path:"profile",
+  element:<Profile />,  
+},
+{
+  path:"category",
+  element:<Category />,  
+},
+{
+  path:"users",
+  element:<AdminUsers />,  
+},
+{
+  path:"admin_product",
+  element:<AdminUsers />,  
+},
+  ],
+  },
+  
          {
     path: "/home",
     element:<Products />,
@@ -60,7 +92,7 @@ export const router = createBrowserRouter([
   },
       {
     path: "/logout",
-    element:<Logout />,
+    element:<Login />,
   },
       {
     path: "/blog",

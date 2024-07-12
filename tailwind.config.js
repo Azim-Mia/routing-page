@@ -38,9 +38,12 @@ export default {
       '1xl':'1rem',
         '4xl': '2rem',
       },
+      minHeight:{
+        "50":"50rem",
+      },
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(0, 0, 0, 0.3)',
-      }
+      },
     },
   },
   plugins: [],

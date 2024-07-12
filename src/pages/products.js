@@ -33,7 +33,7 @@ fetchData();
   products?.map((product)=>{
   const {id,title,price,category}=product;
       return <article key ={id} className="bg-pink">
-     <Link to={`/products/${id}`} state={product}> <img src={product.thumbnail} alt="productImg" /></Link>
+     <Link to={`/products/${id}`} state={product}> <img src={product.thumbnail} alt="productImg" className="" /></Link>
       <p>{title}</p>
         <p>{price}</p>
           <p>{category}</p>
