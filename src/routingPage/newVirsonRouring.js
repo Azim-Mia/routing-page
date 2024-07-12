@@ -102,6 +102,10 @@ export const router = createBrowserRouter([
     path: "/my-app",
     element:<Myapp />,
   },
+  {
+  path:"/routing-page",
+  element:<Products />,  
+},
     ],
   },
 ]);
