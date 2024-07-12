@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
   colors: {
+      'white': 'white',
       'blue': '#1fb6ff',
       'pink': 'pink',
       'red':'red',

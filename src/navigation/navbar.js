@@ -4,10 +4,10 @@ import "./navbar.css";
 import Bars from './bars'
 const Header =() =>{
   return ( <>
-  <header className="navbar-header">
+  <header className="navbar-header  items-center sm:bg-coral text-[0.9rem] md:bg-pink lg:bg-orange xl:bg-blue">
       <div className="brand">
        <div className=""> <Bars /></div>
-  <Link to="/my-app" className="pt-4"> My-app</Link>
+  <Link to="/my-app" className="flex justify-center items-center"> My-app</Link>
   </div>
   <nav>
   <ul>

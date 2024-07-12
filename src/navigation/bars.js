@@ -24,17 +24,12 @@ const [isMenuClicked,setIsClicked] =useState(false);
   </div>
   <div className="text-black text-3xl">
   <div className ={menu_class}>
-  <details>
-  <summary className="bg-yellow text-4xl p-4">
-  Setting
-  </summary>
   <ul className="p-2 text-center text-white">
-  <li className="bg-red p-4 hover:bg-pink">banagla</li>
-    <li className="bg-red p-4 hover:bg-pink mt-1">english</li>
-    <li className="bg-red p-4 hover:bg-pink mt-1">Math</li>
-    <li className="bg-red p-4 hover:bg-pink mt-1">sceince</li>  
+  <li className=" p-1 hover:text-black hover:border-b">banagla</li>
+    <li className=" p-1 hover:text-black border-b mt-1">english</li>
+    <li className="p-1 hover:text-black border-b mt-1">Math</li>
+    <li className="p-1 hover:text-black border-b mt-1">sceince</li>  
   </ul>
-  </details>
   </div>
   </div>
   </>)

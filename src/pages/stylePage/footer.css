@@ -12,3 +12,20 @@
   font-size: 1rem;
   font-size: italic;
 }
+@media only screen and (max-width: 448px) {
+  .footer{
+  display: flex;
+  justify-content:space-between;
+  background:pink;
+  bottom:0;
+  font-size: 0.5rem;
+  background: coral;
+  position: sticky;
+  z-index: 100;
+  margin-top: 96vh;
+}
+.personal-details{
+  font-size: 0.2rem;
+  font-size: italic;
+}
+}
