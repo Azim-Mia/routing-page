@@ -7,6 +7,7 @@ const Footer = ()=>{
     </div>
         <div className="personal-ditails">
         <h1> Author: Azim Islam</h1>
+        hdjdjj
         </div>
     </div>
 }

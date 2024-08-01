@@ -24,11 +24,12 @@ const [isMenuClicked,setIsClicked] =useState(false);
   </div>
   <div className="text-black text-3xl">
   <div className ={menu_class}>
+  <input type="search" placeholder="search product" className="border text-center" />
   <ul className="p-2 text-center text-white">
-  <li className=" p-1 hover:text-black hover:border-b">banagla</li>
-    <li className=" p-1 hover:text-black border-b mt-1">english</li>
-    <li className="p-1 hover:text-black border-b mt-1">Math</li>
-    <li className="p-1 hover:text-black border-b mt-1">sceince</li>  
+  <li className=" p-1 hover:text-black hover:border-b">All Products</li>
+    <li className=" p-1 hover:text-black border-b mt-1">category products</li>
+    <li className="p-1 hover:text-black border-b mt-1">need price</li>
+    <li className="p-1 hover:text-black border-b mt-1">Other</li>  
   </ul>
   </div>
   </div>

@@ -2,6 +2,7 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import NewNavber from '/data/data/com.termux/files/home/routing-page/src/navigation/navbar.js';
+import View from '/data/data/com.termux/files/home/routing-page/src/reduxToolkits/productFeaturs/view.js';
 /*import Home from '../../src/pages/home';*/
 import Login from '../../src/components/userPage/login';
 /*import Logout from '../../src/components/userPage/logout';*/
@@ -14,7 +15,7 @@ import Contract from '../../src/pages/contract';
 import About from '../../src/pages/about';
 import Products from '../../src/pages/products';
 import Error from '../../src/pages/error';
-import Myapp from '../../src/pages/myApp';
+/*import Myapp from '../../src/pages/myApp';*/
 import ProtektedPage from '../../src/components/protektedPage/protektedPage.js';
 import AdminProteckted from '../../src/components/protektedPage/adminProteckted.js';
 import ProductDetails from '../../src/components/productDetails';
@@ -28,11 +29,15 @@ export const router = createBrowserRouter([
     path: "/",
     element:<Products />,
   },
+   {
+    path: "/",
+    element:<Products />,
+  },
   {
   path:"/deshboard/user" ,
   element:<ProtektedPage />,
   children:[
-{
+  {
   path:"profile",
   element:<Profile />,  
 },
@@ -100,7 +105,7 @@ export const router = createBrowserRouter([
   },
       {
     path: "/my-app",
-    element:<Myapp />,
+    element:<View />,
   },
   {
   path:"/routing-page",

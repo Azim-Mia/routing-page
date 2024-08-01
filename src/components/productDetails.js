@@ -14,7 +14,7 @@ const {state} = useLocation();
          <p>{state.description}</p>
   </article>:<p>Not Found Product data</p>
 }
-<Link to="/products" className="flex_costomise mt-4 mb-4">Beack New</Link>
+<Link to="/products" className="flex_costomise mt-4 mb-4" >Beack New</Link>
 </section>
   </>
   )
