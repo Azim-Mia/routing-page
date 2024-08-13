@@ -4,6 +4,9 @@ import {
 import NewNavber from '/data/data/com.termux/files/home/routing-page/src/navigation/navbar.js';
 import View from '/data/data/com.termux/files/home/routing-page/src/reduxToolkits/productFeaturs/view.js';
 /*import Home from '../../src/pages/home';*/
+import AddCard from '../../src/addCardPage/addCard'
+import OrderSuccess from '../../src/addCardPage/orderSuccess'
+import OrderFail from '../../src/addCardPage/orderFail';
 import Login from '../../src/components/userPage/login';
 /*import Logout from '../../src/components/userPage/logout';*/
 import Profile from '../../src/components/userPage/profile';
@@ -110,6 +113,22 @@ export const router = createBrowserRouter([
   {
   path:"/routing-page",
   element:<Products />,  
+},
+  {
+  path:"/add-card",
+  element:<AddCard />,  
+},
+  {
+  path:"/payment/success/:id",
+  element:<OrderSuccess />,  
+},
+  {
+  path:"/payment/fail/:id",
+  element:<OrderFail />,  
+},
+  {
+  path:"/payment/cancel/:id",
+  element:<Blog />,  
 },
     ],
   },

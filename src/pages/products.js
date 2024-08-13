@@ -41,7 +41,7 @@ setTotalPages(Math.ceil(data.total/itemPerPage))
 .finally(()=>setLoading(false))
 };
 useEffect(()=>{
-fetchData(currentPage,searchTerm);
+fetchData(currentPage,searchTerm,sortCriteria);
 },[currentPage,searchTerm,sortCriteria])  
 const handleSearchTerm =(event)=>{
   setSearchTerm(event.target.value);
@@ -77,7 +77,7 @@ sortCriteria={sortCriteria}
      <p>Rating: 5</p>
      </div>
           <div className="flex justify-center items-center justify-between pl-6 pr-6 gap-5">
-     <p className="bg-yellow p-2 btn">add-card</p>
+<Link to="/add-card" className="btn" state={id} >Add Card</Link>
    <p>item-color: 4</p>
      </div>
           <Link to={`/products/${id}`} state={product} className=" flex justify-center btn mt-7 "> Show Product Details...</Link>
